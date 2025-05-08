@@ -11,11 +11,11 @@ function adivinharNumero(max, palpite) {
   const numeroAleatorio = Math.floor(Math.random() * (max + 1));
 
   if (numeroAleatorio === palpite) {
-    return "Acertou";
+    return "Acertou!";
   } else {
-    return "Errou! Tente mais uama vez";
+    return "Errou! Tente novamente!";
   }
-  //TESTE 2
 }
+
 // NÃO REMOVA O CÓDIGO ABAIXO
 module.exports = { adivinharNumero };
