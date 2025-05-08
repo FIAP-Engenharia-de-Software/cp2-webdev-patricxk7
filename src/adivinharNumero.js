@@ -16,9 +16,6 @@ function adivinharNumero(max, palpite) {
     return "Errou! Tente mais uama vez";
   }
   //TESTE 2
-  const numeroAleatorio = Math.floor(Math.random() * (max + 1));
-  return numeroAleatorio === palpite ? "Acertou!" : "Errou! Tente novamente!";
-}
 }
 // NÃO REMOVA O CÓDIGO ABAIXO
 module.exports = { adivinharNumero };
