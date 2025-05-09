@@ -17,5 +17,5 @@ function adivinharNumero(max, palpite) {
   }
 }
 
-// NÃO REMOVA O CÓDIGO ABAIXO
+// NÃO REMOVA O CÓDIGO ABAIX
 module.exports = { adivinharNumero };
